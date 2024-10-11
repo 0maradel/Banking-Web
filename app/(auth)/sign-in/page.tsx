@@ -1,10 +1,11 @@
+import AuthForm from '@/components/ui/AuthForm'
 import React from 'react'
 
 const SignIn = () => {
   return (
-    <div>
-      SingIn
-    </div>
+    <section className="flex-center size-full max-sm:pd-6">
+      <AuthForm type="sign-in" />
+    </section>
   )
 }
 
