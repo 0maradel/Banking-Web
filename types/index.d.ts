@@ -13,9 +13,7 @@ declare type SignUpParams = {
   address1: string;
   city: string;
   state: string;
-  postalCode: string;
   dateOfBirth: string;
-  ssn: string;
   email: string;
   password: string;
 };
@@ -36,9 +34,7 @@ declare type User = {
   address1: string;
   city: string;
   state: string;
-  postalCode: string;
   dateOfBirth: string;
-  ssn: string;
 };
 
 declare type NewUserParams = {
